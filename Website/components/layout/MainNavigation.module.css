@@ -1,0 +1,39 @@
+.header {
+  max-width: 99%;        
+  margin: 1rem auto;     
+  padding: 1.5rem 2rem;  
+  background-color: #1a1818;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #ff9800;
+}
